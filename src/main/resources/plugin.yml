@@ -1,0 +1,4 @@
+name: SpigotGenerator
+version: '1.0-SNAPSHOT'
+main: ca.pandaaa.spigotGenerator.SpigotGenerator
+api-version: '1.21'
