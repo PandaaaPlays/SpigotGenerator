@@ -33,8 +33,7 @@ public class SoundEnum {
                 Material material = findMatchingMaterial(soundName);
 
                 // Ajouter une entrée à l'enum
-                writer.write(String.format("    %s(\"%s\", Material.%s, \"%s\"),\n",
-                        soundName,
+                writer.write(String.format("    %s(Material.%s, \"%s\"),\n",
                         soundName,
                         material.name(),
                         category
